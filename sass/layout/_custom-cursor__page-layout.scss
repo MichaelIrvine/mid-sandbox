@@ -1,0 +1,21 @@
+#main-custom-cursor {
+    cursor: none !important;
+    margin-top: 10vh;
+    padding: 6em;
+    background-color: #FBF1EC;
+    display: flex;
+    justify-content: center;
+
+    h3 {
+        font-family: $font__ivy;
+        font-size: 3em;
+        text-align: center;
+        letter-spacing: 3px;
+        color: #1e1e1e;
+    }
+
+    .custom-cursor__list-img {
+        max-width: 100px;
+        min-width: 100px;
+    }
+}

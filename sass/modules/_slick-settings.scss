@@ -1,0 +1,50 @@
+.slick-gallery {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 1s ease;
+    height: auto;
+    // width: 100%;
+}
+
+.slick-gallery.slick-initialized {
+    visibility: visible;
+    opacity: 1; 
+}
+
+
+
+.slide-button {
+    background-color: transparent;
+    border: none;
+    width: 40%;
+    height: 100vh;
+    &:focus {
+        outline: none;
+    }
+}
+
+
+
+.slides-next {
+    position: absolute;
+    top: 0;
+    right: calc(50% - 40%);
+    z-index: 9;
+
+    // &:hover {
+    //     @include custom-cursor__next;
+    // }
+}
+
+.slides-previous {
+    position: absolute;
+    top: 0;
+    left: calc(50% - 40%);
+    z-index: 9;
+
+
+    // &:hover {
+    //     @include custom-cursor__prev;
+    // }
+}
+

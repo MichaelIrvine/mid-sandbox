@@ -1,0 +1,31 @@
+#masthead {
+    .site-branding {
+        display: flex;
+
+        .title-main {
+            flex: 1;
+            font-size: 1.5em;
+        }
+
+        .main-menu-toggle {
+            button {
+                font-size: 1.5em;
+                border: 1px solid transparent;
+                border-radius: 50px;
+                padding: 0 20px 2px 20px;
+                transition: all 500ms ease;
+
+                &:hover {
+                    // border: 1px solid #1e1e1e;
+                    background-color: #f3f3f3;
+                    
+                }
+            }
+        }
+    }
+
+    #site-navigation {
+        display: none;
+        visibility: hidden;
+    }
+}

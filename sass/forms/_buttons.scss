@@ -1,0 +1,20 @@
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	border: none;
+	color: rgba(0, 0, 0, .8);
+	line-height: 1.2;
+	font-family: $font__freight;
+	
+
+	&:hover {
+		// border-color: $color__border-button-hover;
+	}
+
+	&:active,
+	&:focus {
+		// border-color: $color__border-button-focus;
+		outline: none;
+	}
+}
